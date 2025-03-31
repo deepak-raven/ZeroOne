@@ -96,7 +96,9 @@ void executeMylang(char *command) {
         else executeMylang(falseCmd);
     }
     else {
+        printf("----------------------------------");
         printf(RED " ❌ Unknown command!\n" RESET);
+        printf("----------------------------------");
     }
 }
 
